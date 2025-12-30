@@ -1,0 +1,13 @@
+prefix=E:/Projects/mlproject/ATSModified/mats/Library
+exec_prefix=E:/Projects/mlproject/ATSModified/mats/Library
+libdir=E:/Projects/mlproject/ATSModified/mats/Library/lib
+sharedlibdir=E:/Projects/mlproject/ATSModified/mats/Library/lib
+includedir=E:/Projects/mlproject/ATSModified/mats/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
